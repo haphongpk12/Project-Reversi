@@ -42,7 +42,7 @@ def is_valid_move(board, chess, x, y):
         other_chess = black_icon_chess
     chess_flip = []
 
-    for x_direction, y_direction in direction:
+    for x_direction, y_direction in eight_direction:
         new_x, new_y = x, y
         new_x += x_direction   # first step in the direction
         new_y += y_direction   # first step in the direction
